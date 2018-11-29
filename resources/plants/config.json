@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 1
+		},
+		"area": {
+			"name": "area",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "area",
+			"order": 2
+		},
+		"age": {
+			"name": "age",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "age",
+			"order": 3
+		},
+		"medUse": {
+			"name": "medUse",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "medUse",
+			"order": 4
+		},
+		"comment": {
+			"name": "comment",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "comment",
+			"order": 5
+		}
+	}
+}

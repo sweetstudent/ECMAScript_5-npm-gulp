@@ -1,0 +1,39 @@
+{
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {
+    "deployd": "^1.0.0",
+    "dpd-dashboard": "^0.0.1",
+    "dpd-clientlib": "^0.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-livereload": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "name": "task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetstudent/ECMAScript_5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetstudent/ECMAScript_5/issues"
+  },
+  "homepage": "https://github.com/sweetstudent/ECMAScript_5#readme",
+  "description": ""
+}

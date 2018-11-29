@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Edit</title>
+  <link rel="stylesheet" href="css/css.min.css">
+</head>
+<style type="text/css">
+  table {
+    width: 70%;
+    border-collapse: collapse;
+  }
+
+  td, th {
+    padding: 3px;
+    border: 1px solid black;
+    width: 50px;
+  }
+</style>
+
+<body>
+  <h2 style="margin-left:21px; font-family:Arial, Helvetica, sans-serif">Редактирование:</h2>
+  <div id="edit">
+  </div>
+  <form id="edit-form">
+    <div  class="form-element"><small>Название</small><select name="name" id="name">
+        <option value="Папоротник">Папоротник</option>
+        <option value="Ель">Ель</option>
+      </select></div>
+    <div class="form-element"><small>Вид</small><input type="text" id="type" required pattern="[A-Za-zА-Яа-яЁё]"/></div>
+    <div class="form-element"><small>Ареал обитания</small><input type="text" id="area" required pattern="[A-Za-zА-Яа-яЁё]" /></div>
+    <div class="form-element"><small>Возраст</small><input type="number" min="0" max="2018" value="0" id="age" /></div>
+    <div class="form-element"><small>Использование <br>в медицине</small><input type="checkbox" id="medUse" ></div>
+    <div class="form-element"><small>Описание</small><textarea name="comment" id="comment" cols="48" rows="8" pattern="[A-Za-zА-Яа-яЁё]"> </textarea></div>
+
+  
+        <button type="submit" id="edit">Изменить</button>
+        <button type="reset" >Очистить</button>
+      </form>
+  
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/dpd.js"></script>
+    <script type="text/javascript" src="js/edit.js"></script>
+
+</body>
+
+</html>
